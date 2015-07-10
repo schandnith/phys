@@ -256,12 +256,10 @@
 
 	ul.icons {
 		cursor: default;
-		padding-bottom: 2em;
+		padding-bottom: 0em;
 	}
-
 		ul.icons li {
 			display: inline-block;
-			line-height: 1em;
 			padding: 0.5em 1em;
 		}
 
@@ -278,14 +276,20 @@
 				font-size: 2em;
 				color: inherit;
 				opacity: 0.2;
-				-moz-transition: all 0.35s ease-in-out;
-				-webkit-transition: all 0.35s ease-in-out;
-				-o-transition: all 0.35s ease-in-out;
-				-ms-transition: all 0.35s ease-in-out;
-				transition: all 0.35s ease-in-out;
 			}
 
 			ul.icons li a:hover {
+				color: inherit;
+				opacity: 1;
+			}
+			ul.icons1 li a {
+				text-decoration: none;
+				font-size: 1.5em;
+				color: inherit;
+				opacity: 0.2;
+			}
+
+			ul.icons1 li a:hover {
 				color: inherit;
 				opacity: 1;
 			}
@@ -684,6 +688,10 @@ table, th, td {
 					color: white;
 				}
 
+				#drop > li.active a {
+					color: white;
+				}
+
 				#nav > ul > li > ul {
 					display: none;
 				}
@@ -803,7 +811,7 @@ table, th, td {
 			border-color: inherit;
 			opacity: .05;
 		}
-		#id {
+		#id {}
 		
 
 		#footer .major h2 {
